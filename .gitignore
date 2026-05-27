@@ -1,0 +1,74 @@
+# ===================================================================
+# IDE and System Files
+# ===================================================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VS Code - User-specific settings and state
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse/STS
+.classpath
+.project
+.settings/
+
+# ===================================================================
+# Backend (ecommerce-backend) - Java / Maven / Spring Boot
+# ===================================================================
+# Compiled class files
+ecommerce-backend/**/*.class
+
+# Maven build directory
+ecommerce-backend/target/
+
+# Log files
+ecommerce-backend/*.log
+hs_err_pid*
+
+# Maven Build files
+ecommerce-backend/pom.xml.tag
+ecommerce-backend/pom.xml.releaseBackup
+ecommerce-backend/release.properties
+ecommerce-backend/dependency-reduced-pom.xml
+ecommerce-backend/buildNumber.properties
+
+# Do not commit the mvn wrapper jar file
+ecommerce-backend/.mvn/wrapper/maven-wrapper.jar
+
+
+
+# ===================================================================
+# Frontend (ecommerce-frontend) - Node / React / TypeScript
+# ===================================================================
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+ecommerce-frontend/node_modules/
+ecommerce-frontend/.pnp
+ecommerce-frontend/.pnp.js
+
+# Testing
+ecommerce-frontend/coverage/
+
+# Production build
+ecommerce-frontend/build/
+
+# Environment variables (contains secrets and machine-specific settings)
+ecommerce-frontend/.env.local
+ecommerce-frontend/.env.development.local
+ecommerce-frontend/.env.test.local
+ecommerce-frontend/.env.production.local
+
+# Logs
+ecommerce-frontend/npm-debug.log*
+ecommerce-frontend/yarn-debug.log*
+ecommerce-frontend/yarn-error.log*
