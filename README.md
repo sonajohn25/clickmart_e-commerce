@@ -80,9 +80,13 @@ eCommerce-Springboot-React/
 │   ├── public/
 │   └── package.json
 │
-└── ecommerce-backend/
-    ├── src/
-    └── pom.xml
+├── ecommerce-backend/
+│   ├── src/
+│   └── pom.xml
+│
+├── .gitignore
+│
+└── README.md
 ```
 
 ---
