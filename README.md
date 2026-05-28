@@ -175,6 +175,11 @@ spring.datasource.password=yourpassword
 
 ---
 
+# Demo Video
+🎥 Project Demo Video:
+
+[Watch Demo Video](https://drive.google.com/file/d/1ziwFnb16qc9jJ6S9Y1-ipIZglMkBMXhA/view?usp=sharing)
+
 
 # Author
 
